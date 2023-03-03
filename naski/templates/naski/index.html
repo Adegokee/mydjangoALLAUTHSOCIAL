@@ -1,0 +1,7 @@
+{% load socialaccount %}
+
+<h1>Home Page</h1>
+
+<a href="{% provider_login_url 'github' %}">Login via Github</a>
+
+<a href="{% url 'account_signup' %}">Signup</a>
